@@ -1,4 +1,4 @@
-# **📌 Methods in Java**
+# **📘 Methods in Java**
 
 Methods are member of class which provide functionality for class. 
 
@@ -437,7 +437,7 @@ public class SCMethod1
 ```
 ---
 
-# **Method Overloading in Java — Complete Learning Material**
+# **📘Method Overloading in Java — Complete Learning Material**
 
 ## **1. Learning Objectives**
 
@@ -451,7 +451,7 @@ After this lesson, you will be able to:
 
 ---
 
-# **2. What is Method Overloading?**
+## **2. What is Method Overloading?**
 
 **Method Overloading** means:
 
@@ -461,7 +461,7 @@ Java allows this because sometimes you want one “concept” (like finding max)
 
 ---
 
-# **3. Example: Finding Maximum of Numbers**
+## **3. Example: Finding Maximum of Numbers**
 
 ### **A. First method: Maximum of two integers**
 
@@ -553,7 +553,7 @@ Example:
 
 ---
 
-# **6. How the Compiler Chooses the Correct Overloaded Method**
+## **6. How the Compiler Chooses the Correct Overloaded Method**
 
 ### Case 1 — Two integers
 
@@ -598,7 +598,7 @@ The compiler always chooses the method whose **parameter types exactly match** t
 
 ---
 
-# **7. Summary**
+## **7. Summary**
 
 * **Method Overloading** = multiple methods with the same name and different parameter lists.
 * Allowed differences:
@@ -614,18 +614,13 @@ The compiler always chooses the method whose **parameter types exactly match** t
 
 ---
 
-# **8. Self-Assessment Questions**
+## **8. Self-Assessment Questions**
 
 1. What is method overloading?
 2. Can two overloaded methods have the same number of parameters?
 3. Can we overload a method by changing only the return type? Why not?
 4. What will happen when you call `max(3, 5F)`? Which overload will be picked?
 5. What is the difference between method overloading and method overriding?
-
----
-
-
-Below is your transcript transformed into a **clean, structured, easy-to-learn lesson** on **Recursion in Java**, following your preferred teaching style.
 
 ---
 
@@ -642,7 +637,7 @@ Below is your transcript transformed into a **clean, structured, easy-to-learn l
 
 ---
 
-# **2. What Is Recursion?**
+## **2. What Is Recursion?**
 
 **Recursion** means:
 
@@ -658,7 +653,7 @@ A recursive method **must** have:
 
 ---
 
-# **3. Example 1 — Forward Recursion (Print Before Calling)**
+## **3. Example 1 — Forward Recursion (Print Before Calling)**
 
 ```java
 void fun(int n) {
@@ -698,7 +693,7 @@ This is a simple **downward recursion**.
 
 ---
 
-# **4. How Recursion Works Internally (Call Stack)**
+## **4. How Recursion Works Internally (Call Stack)**
 
 Think of recursion like:
 
@@ -719,7 +714,7 @@ Returning: `fun(1)` → `fun(2)` → `fun(3)`
 
 ---
 
-# **5. Example 2 — Backward Recursion (Call Before Printing)**
+## **5. Example 2 — Backward Recursion (Call Before Printing)**
 
 ```java
 void fun(int n) {
@@ -757,7 +752,7 @@ This shows the power of recursion:
 
 ---
 
-# **6. Recursion vs Loops**
+## **6. Recursion vs Loops**
 
 ### **Loops can do everything recursion does.**
 Example using a loop:
@@ -799,7 +794,7 @@ So in programming:
 
 ---
 
-# **7. The Base Condition — Why It Matters**
+## **7. The Base Condition — Why It Matters**
 
 ```java
 if (n > 0) { … }
@@ -813,7 +808,7 @@ Every recursive method needs a well-defined **stopping condition**.
 
 ---
 
-# **8. Ready-To-Use Java Demo Code**
+## **8. Ready-To-Use Java Demo Code**
 
 ### **A) Print 3 2 1**
 ```java
@@ -841,7 +836,7 @@ void fun(int n) {
 
 ---
 
-# **9. Summary**
+## **9. Summary**
 
 - Recursion = method calling itself  
 - Needs:
